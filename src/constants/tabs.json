@@ -1,0 +1,74 @@
+{
+  "header": [
+    {
+      "icon": "mdi-home-outline",
+      "label": "Portfolio",
+      "to": { "name": "Dashboard" }
+    }
+  ],
+  "dashboard": [
+    {
+      "label": "All Assets",
+      "to": { "name": "DashboardAllAssets" }
+    },
+    {
+      "label": "Crypto",
+      "to": { "name": "DashboardCrypto" }
+    },
+    {
+      "label": "Private Investments",
+      "to": { "name": "DashboardPrivateInvestment" }
+    },
+    {
+      "label": "Cash",
+      "to": { "name": "DashboardCash" }
+    }
+  ],
+  "userSetting": [
+    {
+      "label": "Settings",
+      "to": { "name": "UserSettings" }
+    },
+    {
+      "label": "Documents",
+      "to": { "name": "UserDocuments" }
+    },
+    {
+      "label": "Billing",
+      "to": { "name": "UserBilling" }
+    }
+  ],
+  "adminUserProfile": [
+    {
+      "label": "Settings",
+      "to": {
+        "name": "AdminUserSettings"
+      }
+    },
+    {
+      "label": "401k Plan Info",
+      "to": {
+        "name": "AdminUser401kPlanInfo"
+      }
+    },
+    {
+      "label": "Documents",
+      "to": {
+        "name": "AdminUserDocument"
+      }
+    },
+    {
+      "label": "Billing",
+      "to": {
+        "name": "AdminUserBilling"
+      },
+      "requiredClaims": ["access:canupdatebilling"]
+    }
+  ],
+  "accountStatus": [
+    {
+      "label": "Solo 401K",
+      "to": { "name": "AccountStatusSolo401k" }
+    }
+  ]
+}

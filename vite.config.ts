@@ -6,6 +6,7 @@ import layouts from 'vite-plugin-vue-layouts'
 import components from 'unplugin-vue-components/vite'
 import viteESLint from '@ehutch79/vite-eslint'
 import vueI18n from '@intlify/vite-plugin-vue-i18n'
+import { quasar, transformAssetUrls } from '@quasar/vite-plugin'
 // import { PUBLIC_ROUTES } from './src/constants/public-routes'
 
 // https://vitejs.dev/config/
@@ -16,7 +17,14 @@ export default defineConfig({
     }
   },
   plugins: [
-    vue(),
+    vue({
+      template: { transformAssetUrls }
+    }),
+
+    quasar({
+      sassVariables: 'src/quasar-variables.sass'
+    }),
+    // vue(),
     pages(),
     layouts(),
     components({ directoryAsNamespace: true }),

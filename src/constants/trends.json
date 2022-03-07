@@ -1,0 +1,90 @@
+[
+    {
+      "id": "1",
+      "name": "E-commerce app design",
+      "type": "Mobile App",
+      "engagement": "100",
+      "image": "/back2_79Emb_frr.png",
+      "placement": "img-big-first"
+    },
+    {
+        "id": "2",
+        "name": "Countdown web app",
+        "type": "Web App",
+        "engagement": "100",
+        "image": "/back1_XNf6S291W.jpeg",
+        "placement": "img-big-last"
+      },
+      {
+        "id": "3",
+        "name": "Stock market design",
+        "type": "Mobile App",
+        "engagement": "100",
+        "image": "/back3_yI9ytYAvo.png",
+        "placement": "img-left-big"
+      },
+      {
+        "id": "4",
+        "name": "AR/VR house interaction",
+        "type": "Web/Mobile App",
+        "engagement": "12",
+        "image": "/default-image.jpg",
+        "placement": "img-small-top"
+      },
+      {
+        "id": "5",
+        "name": "Commic book App project",
+        "type": "Mobile App",
+        "engagement": "10",
+        "image": "/back2_79Emb_frr.png",
+        "placement": "img-small-below"
+      },
+      {
+        "id": "6",
+        "name": "Social media app project",
+        "type": "Mobile App",
+        "engagement": "13",
+        "image": "/back3_yI9ytYAvo.png",
+        "placement": "img-small-first"
+      },
+      {
+        "id": "7",
+        "name": "Cards Game app project",
+        "type": "Mobile Game App",
+        "engagement": "16",
+        "image": "/default-image.jpg",
+        "placement": "img-small-first-2"
+      },
+      {
+        "id": "8",
+        "name": "Friends zone app project",
+        "type": "Mobile App",
+        "engagement": "19",
+        "image": "/back3_yI9ytYAvo.png",
+        "placement": "img-small-mid"
+      },
+      {
+        "id": "9",
+        "name": "Tutor Class app project",
+        "type": "Mobile App",
+        "engagement": "20",
+        "image": "/default-image.jpg",
+        "placement": "img-small-mid-2"
+      },
+      {
+        "id": "10",
+        "name": "Card micro ui project",
+        "type": "Html/Css",
+        "engagement": "40",
+        "image": "/back3_yI9ytYAvo.png",
+        "placement": "img-small-last"
+      },
+      {
+        "id": "11",
+        "name": "Ideas creation project",
+        "type": "documents",
+        "engagement": "60",
+        "image": "/back2_79Emb_frr.png",
+        "placement": "img-small-last-2"
+      }
+]
